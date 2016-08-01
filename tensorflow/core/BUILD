@@ -1007,6 +1007,7 @@ tf_cuda_library(
 cc_library(
     name = "protos_cc",
     deps = ["//tensorflow/core/platform/default/build_config:protos_cc"],
+    visibility = ["//visibility:public"],
 )
 
 tf_cuda_library(
